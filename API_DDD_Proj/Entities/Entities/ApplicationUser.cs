@@ -15,10 +15,10 @@ namespace Entities.Entities
         public int Age { get; set; }
 
         [Column("USR_CELLPHONENUMBER")]
-        public string CellphoneNumber { get; set; }
+        public string? CellphoneNumber { get; set; }
 
         [Column("USR_TYPE")]
-        public UserType? Tipe { get; set; }
+        public UserType? Type { get; set; }
 
 
 
