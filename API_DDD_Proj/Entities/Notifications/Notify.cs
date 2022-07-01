@@ -15,10 +15,10 @@ namespace Entities.Notifications
         }
 
         [NotMapped]
-        public string PropertyName { get; set; }
+        public string? PropertyName { get; set; }
 
         [NotMapped]
-        public string Message { get; set; }
+        public string? Message { get; set; }
 
         [NotMapped]
         public List<Notify> Notifications;
